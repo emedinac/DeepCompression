@@ -7,10 +7,10 @@ Learn Pytorch for low-level (gradient modification) and high-level implementatio
 Learn a very efficient network optimization (2015). Currently, there is a new optimization method that I would like to learn =) [MorphNet](https://ai.googleblog.com/2019/04/morphnet-towards-faster-and-smaller.html)
 
 ## Usage
-All parameters are detailed in ´main.py´, just run:
-´´´
+All parameters are detailed in `main.py`, just run:
+```
 python main.py
-´´´
+```
 Recommended number of epochs i Pruning is 25 and 5 for the sharing stage.
 
 ## Update results
