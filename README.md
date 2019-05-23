@@ -38,15 +38,15 @@ Some visual results of the pruned weights are shown below:
 </p>
 
 
-## Release
+## Releases
 
-### 1.2
+### Release 1.2
 Usage updated...
 
-### 1.1
+### Release 1.1
 Presentation and Figures were uploaded.
 
-### 1.0
+### Release 1.0
 Code now work for pytorch 1.0.1.
 Trained models differ from the original ones reported in the presentation.
 
