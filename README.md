@@ -1,4 +1,4 @@
-# Pytorch-Deep-Compression
+# PyTorch-Deep-Compression
 
 This is own implementation and understanding of the paper [Deep Compression](https://arxiv.org/abs/1510.00149) developed in June/July 2017 (except huffmann coding =D ), and very simple reports were produced on November. sharing weight stage needs to be optimized, it is extremely slow, but do not require many epochs to converge.
 
