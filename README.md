@@ -1,10 +1,17 @@
 # Pytorch Deep Compression
 
-This is own implementation and understanding of the paper [Deep Compression](https://arxiv.org/abs/1510.00149) developed in June/July 2017 (except huffmann coding =D ), and very simple reports were produced on November.
+This is own implementation and understanding of the paper [Deep Compression](https://arxiv.org/abs/1510.00149) developed in June/July 2017 (except huffmann coding =D ), and very simple reports were produced on November. sharing weight stage needs to be optimized, it is extremely slow, but do not require many epochs to converge.
 
 ## My tasks to solve
 Learn Pytorch for low-level (gradient modification) and high-level implementation (large networks).
 Learn a very efficient network optimization (2015). Currently, there is a new optimization method that I would like to learn =) [MorphNet](https://ai.googleblog.com/2019/04/morphnet-towards-faster-and-smaller.html)
+
+## Usage
+All parameters are detailed in ´main.py´, just run:
+´´´
+python main.py
+´´´
+Recommended number of epochs i Pruning is 25 and 5 for the sharing stage.
 
 ## Update results
 Trained models were based on VGG19 and its custom versions, however results presented here are VGG19 (with batchnorm) trained on CIFAR10. Experiments were performed again in order to test if pytorch 1.0.1 works correctly on variable and gradient manipulations.
@@ -33,8 +40,12 @@ Some visual results of the pruned weights are shown below:
 
 ## Release
 
+### 1.2
+Usage updated...
+
 ### 1.1
 Presentation and Figures were uploaded.
+
 ### 1.0
 Code now work for pytorch 1.0.1.
 Trained models differ from the original ones reported in the presentation.
