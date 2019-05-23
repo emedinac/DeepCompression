@@ -11,7 +11,7 @@ All parameters are detailed in `main.py`, just run:
 ```
 python main.py
 ```
-Recommended number of epochs i Pruning is 25 and 5 for the sharing stage.
+Recommended number of epochs in pruning is 25, while 5 epochs are enough in the sharing stage.
 
 ## Update results
 Trained models were based on VGG19 and its custom versions, however results presented here are VGG19 (with batchnorm) trained on CIFAR10. Experiments were performed again in order to test if pytorch 1.0.1 works correctly on variable and gradient manipulations.
