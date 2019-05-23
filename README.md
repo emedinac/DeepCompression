@@ -19,16 +19,16 @@ Results reported on VGG19 in this repository using k clusters keep almost the sa
 
 Some visual results of the pruned weights are shown following:
 
-| Layer 00   | Layer 02  | Layer 06 | Layer 18 |
-| ![Layer 00](https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_00.png)   | ![Layer 02](https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_02.png)  | ![Layer 06](https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_06.png) |
-| Layer 18  | Layer 31 | Layer 32 |
-![Layer 18](https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_18.png)  | ![Layer 31](https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_31.png) | ![Layer 32](https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_32.png) |
 
+<p align="center">
+  <img src="https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_00.png" width="340" height="340">
+  <img src="https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_02.png" width="340" height="340">
+  <img src="https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_06.png" width="340" height="340">
+  <img src="https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_18.png" width="340" height="340">
+  <img src="https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_31.png" width="340" height="340">
+  <img src="https://github.com/emedinac/DeepCompression/blob/master/Figures/Weight_32.png" width="340" height="340">
+</p>
 
-
-
-
-<!-- /wp:heading -->
 
 ## Release
 Code now work for pytorch 1.0.1.
